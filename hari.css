@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s;
+}
+h1 {
+    color: blue;
+    margin-bottom: 15px;
+    border-bottom: 3px solid blue;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+h2 {
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+h2:hover {
+    color: #ff4500;
+    cursor: pointer;
+}
+p {
+    color: darksalmon;
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.6;
+    transition: color 0.3s;
+}
+p:hover {
+    color: #b22222;
+}
+ul {
+    color: darksalmon;
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background-color: #f0f8ff;
+    margin: 8px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+ul li:hover {
+    transform: scale(1.05);
+    background-color: #e6f7ff;
+}
+address {
+    color: darksalmon;
+    margin-top: 10px;
+    font-style: normal;
+    line-height: 1.5;
+}
+.hi {
+    color: black;
+    font-weight: bold;
+}
+.hari {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid blue;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.hari:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+h1 i {
+    color: #2c3e50;
+    font-size: 1.2em;
+    display: block;
+    margin-top: 30px;
+}
